@@ -31,19 +31,6 @@
     document.querySelector(".theme-btn").addEventListener("click", () => {
         document.body.classList.toggle("light-mode");
         backgroundChange();
-        // var navbar = document.querySelector(".navbar");
-        // var B = document.body;
-        // var D = document.documentElement; 
-        // D = (D.clientHeight)? D: B;
-        // if(D.scrollTop != 0){
-        //     if(document.body.classList.contains("light-mode")){
-        //         navbar.style.background = "rgba(255, 255, 255, 1)";
-        //     }else{
-        //         navbar.style.background = "rgba(25, 29, 43, 1)";
-        //     }
-        // }else{
-        //     navbar.style.background = "rgba(255,255,255,0)";
-        // }
     });
     document.querySelector(".language-btn").addEventListener("click", () => {
         var activeLanguage = document.querySelectorAll(".active-language");
