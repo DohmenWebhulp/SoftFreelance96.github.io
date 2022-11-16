@@ -973,6 +973,12 @@ section {
   text-align: center;
 }
 
+.service-header {
+  font-size: 40px;
+  font-style: italic;
+  color: var(--color-secondary);
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
