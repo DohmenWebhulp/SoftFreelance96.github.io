@@ -52,12 +52,22 @@
             document.querySelector(".language").innerText = "EN";
         }
     });
+
     document.querySelectorAll(".to-contact").forEach(button => {
         button.addEventListener("click", function(){
             document.querySelector(".active-btn").classList.remove("active-btn");
             document.querySelector(".contact-button").classList.add("active-btn");
             document.querySelector(".active").classList.remove("active");
             document.querySelector(".contact").classList.add("active");
+        })
+    });
+
+    document.querySelectorAll(".to-services").forEach(button => {
+        button.addEventListener("click", function(){
+            document.querySelector(".active-btn").classList.remove("active-btn");
+            document.querySelector(".services-button").classList.add("active-btn");
+            document.querySelector(".active").classList.remove("active");
+            document.querySelector(".services").classList.add("active");
         })
     });
 
